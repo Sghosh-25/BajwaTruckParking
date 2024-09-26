@@ -30,11 +30,11 @@ export default function Slider() {
             <div className="slider">
               <div className="colleft">
                 <div className="starrating">
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector (1).jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector (1).jpg" alt="" />
                 </div>
                 <h3>
                   I am extremely satisfied with Bajwa Trucks parking services.
@@ -43,7 +43,7 @@ export default function Slider() {
                 </h3>
                 <div className="driverinfo">
                   {" "}
-                  <img src="../public/Pictures/Ellipse 4.jpg" alt="" />
+                  <img src="/Pictures/Ellipse 4.jpg" alt="" />
                   <div>
                     <h4>John Doe</h4>
                     <p>Truck Owner, ABC Company.</p>
@@ -52,11 +52,11 @@ export default function Slider() {
               </div>
               <div className="colright">
                 <div className="starrating">
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
                 </div>
                 <h3>
                   I highly recommend Bajwa Trucks parking services. They have
@@ -65,7 +65,7 @@ export default function Slider() {
                 <div className="driverinfo">
                   {" "}
                   <div>
-                    <img src="../public/Pictures/Ellipse 4 (1).jpg" alt="" />
+                    <img src="/Pictures/Ellipse 4 (1).jpg" alt="" />
                   </div>
                   <div>
                     <h4>John Doe</h4>
@@ -80,11 +80,11 @@ export default function Slider() {
             <div className="slider">
               <div className="colleft">
                 <div className="starrating">
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector (1).jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector (1).jpg" alt="" />
                 </div>
                 <h3>
                   I am extremely satisfied with Bajwa Trucks parking services.
@@ -93,7 +93,7 @@ export default function Slider() {
                 </h3>
                 <div className="driverinfo">
                   {" "}
-                  <img src="../public/Pictures/Ellipse 4.jpg" alt="" />
+                  <img src="/Pictures/Ellipse 4.jpg" alt="" />
                   <div>
                     <h4>John Doe</h4>
                     <p>Truck Owner, XYZ Company.</p>
@@ -102,11 +102,11 @@ export default function Slider() {
               </div>
               <div className="colright">
                 <div className="starrating">
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
-                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
+                  <img src="/Pictures/Vector.jpg" alt="" />
                 </div>
                 <h3>
                   I highly recommend Bajwa Trucks parking services. They have
@@ -114,7 +114,7 @@ export default function Slider() {
                 </h3>
                 <div className="driverinfo">
                   {" "}
-                  <img src="../public/Pictures/Ellipse 4 (1).jpg" alt="" />
+                  <img src="/Pictures/Ellipse 4 (1).jpg" alt="" />
                   <div>
                     <h4>John Doe</h4>
                     <p>Truck Owner, XYZ Company.</p>
