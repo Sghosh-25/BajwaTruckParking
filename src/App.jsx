@@ -1,36 +1,13 @@
+
 import "./App.css";
-import React, { useState } from "react";
+import Slider from "./Slider"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faCirclePlus } from "@fortawesome/free-solid-svg-icons";
-const testimonials = [
-  {
-    quote:
-      "I am extremely satisfied with Bajwa Truck's parking services. They provide a convenient and secure parking stop for my truck.",
-    name: "John C.",
-    company: "Wajack Company",
-  },
-  {
-    quote:
-      "I highly recommend Bajwa Truck's parking services. They have made it so easy for me to book a parking spot for my truck.",
-    name: "Jason Smith",
-    company: "ABC Company",
-  },
-];
 
 function App() {
-  // const [currentTestimonial, setCurrentTestimonial] = useState(0);
-
-  // const handleNext = () => {
-  //   setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
-  // };
-
-  // const handlePrev = () => {
-  //   setCurrentTestimonial(
-  //     (prev) => (prev - 1 + testimonials.length) % testimonials.length
-  //   );
-
-    return (
-      <>
+  return (
+    <>
+      
         {/* Bajwa Truck Hero Banner Section  */}
         <div className="herosection">
           <nav className="navbar">
@@ -267,151 +244,138 @@ function App() {
           </div>
         </div>
         {/* Testimonials */}
-        {/* <div className="App">
-          <h1>Testimonials</h1>
-          <div className="testimonial">
-            <p>"{testimonials[currentTestimonial].quote}"</p>
-            <p>
-              <strong>{testimonials[currentTestimonial].name}</strong>,{" "}
-              {testimonials[currentTestimonial].company}
-            </p>
-          </div>
-          <div className="navigation">
-            <button onClick={handlePrev}>Previous</button>
-            <button onClick={handleNext}>Next</button>
-          </div>
+        
+      
+       <Slider/>
+      ;{/* Bajwa Truck CTA 2 */}
+      <div className="aboutus">
+        <div className="aboutusleft">
+          <img src="../Pictures/Frame 9.jpg" alt="" />
+          <p>
+            At Bajwa Truck, we have assembled a dedicated team of professionals
+            who are committed to providing excellent service. With their
+            expertise and passion for the industry, our team ensures that every
+            truck owner receives top-notch parking solutions. We understand the
+            unique needs of truck owners and strive to exceed their
+            expectations. Whether its booking a parking spot or addressing any
+            concerns, our team is here to assist you every step of the way.
+          </p>
+          <button>Learn more</button>
         </div>
-        ); */}
-        {/* Bajwa Truck CTA 2 */}
-        <div className="aboutus">
-          <div className="aboutusleft">
-            <img src="../Pictures/Frame 9.jpg" alt="" />
-            <p>
-              At Bajwa Truck, we have assembled a dedicated team of
-              professionals who are committed to providing excellent service.
-              With their expertise and passion for the industry, our team
-              ensures that every truck owner receives top-notch parking
-              solutions. We understand the unique needs of truck owners and
-              strive to exceed their expectations. Whether its booking a parking
-              spot or addressing any concerns, our team is here to assist you
-              every step of the way.
-            </p>
-            <button>Learn more</button>
-          </div>
-          <div className="aboutusright">
-            <div className="header3">
-              <p>About us</p>
-              <h1>Meet Our Dedicated Team of Professionals</h1>
-              <div>
-                Our Dedicated Team of Professionals always at your service be it
-                day or night!
-              </div>
-            </div>
-            <div>
-              <img src="../Pictures/Frame 10.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        {/* Bajwa Truck FAQ */}
-        <div className="FAQ">
+        <div className="aboutusright">
           <div className="header3">
-            <p>FAQ</p>
-            <h1>
-              Frequently <br />
-              Asked Questions
-            </h1>
+            <p>About us</p>
+            <h1>Meet Our Dedicated Team of Professionals</h1>
             <div>
-              Find answers to the most common questions about our truck parking
-              services.
+              Our Dedicated Team of Professionals always at your service be it
+              day or night!
             </div>
-            <button> Learn more</button>
           </div>
-          <div className="questions">
-            <ul>
-              <div className="question">
-                <span>Lorem ipsum dolor sit amet. </span>
-                <FontAwesomeIcon
-                  className="icon3"
-                  icon={faCirclePlus}
-                  style={{ color: "#0c4c7e" }}
-                />
-              </div>
-              <div className="question">
-                {" "}
-                <span>Lorem ipsum dolor sit amet consectetur. </span>
-                <FontAwesomeIcon
-                  className="icon3"
-                  icon={faCirclePlus}
-                  style={{ color: "#0c4c7e" }}
-                />
-              </div>
-              <div className="question">
-                <span>Lorem, ipsum dolo consectetur adipisicing. </span>
-                <FontAwesomeIcon
-                  className="icon3"
-                  icon={faCirclePlus}
-                  style={{ color: "#0c4c7e" }}
-                />
-              </div>
-              <div className="question">
-                <span>Lorem ipsum dolor sit, amet consectetur </span>
-                <FontAwesomeIcon
-                  className="icon3"
-                  icon={faCirclePlus}
-                  style={{ color: "#0c4c7e" }}
-                />
-              </div>
-            </ul>
+          <div>
+            <img src="../Pictures/Frame 10.jpg" alt="" />
           </div>
         </div>
-        <div className="footer">
-          <div className="col1">
-            <img
-              src="../Pictures/Bajwa Truck Parking-01 1.png"
-              alt="logo"
-              className="logo"
-            />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-              laboriosam distinctio. Quia et ipsa cupiditate ratione praesentium
-              voluptate vitae amet provident quam, autem voluptatum. Magni
-              aliquam consectetur error animi sequi!
-            </p>
-            <div>
-              {/* <FontAwesomeIcon icon={faFacebook} />
+      </div>
+      {/* Bajwa Truck FAQ */}
+      <div className="FAQ">
+        <div className="header3">
+          <p>FAQ</p>
+          <h1>
+            Frequently <br />
+            Asked Questions
+          </h1>
+          <div>
+            Find answers to the most common questions about our truck parking
+            services.
+          </div>
+          <button> Learn more</button>
+        </div>
+        <div className="questions">
+          <ul>
+            <div className="question">
+              <span>Lorem ipsum dolor sit amet. </span>
+              <FontAwesomeIcon
+                className="icon3"
+                icon={faCirclePlus}
+                style={{ color: "#0c4c7e" }}
+              />
+            </div>
+            <div className="question">
+              {" "}
+              <span>Lorem ipsum dolor sit amet consectetur. </span>
+              <FontAwesomeIcon
+                className="icon3"
+                icon={faCirclePlus}
+                style={{ color: "#0c4c7e" }}
+              />
+            </div>
+            <div className="question">
+              <span>Lorem, ipsum dolo consectetur adipisicing. </span>
+              <FontAwesomeIcon
+                className="icon3"
+                icon={faCirclePlus}
+                style={{ color: "#0c4c7e" }}
+              />
+            </div>
+            <div className="question">
+              <span>Lorem ipsum dolor sit, amet consectetur </span>
+              <FontAwesomeIcon
+                className="icon3"
+                icon={faCirclePlus}
+                style={{ color: "#0c4c7e" }}
+              />
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="col1">
+          <img
+            src="../Pictures/Bajwa Truck Parking-01 1.png"
+            alt="logo"
+            className="logo"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+            laboriosam distinctio. Quia et ipsa cupiditate ratione praesentium
+            voluptate vitae amet provident quam, autem voluptatum. Magni aliquam
+            consectetur error animi sequi!
+          </p>
+          <div>
+            {/* <FontAwesomeIcon icon={faFacebook} />
             <FontAwesomeIcon icon={faTiktok} />
             <FontAwesomeIcon icon={faInstagram} /> */}
-            </div>
-          </div>
-          <div className="col">
-            <h3>About us</h3>
-            <ul>
-              <li>Contact Us</li>
-              <li>FAQs</li>
-              <li>Blog</li>
-              <li>Terms of Use</li>
-            </ul>
-          </div>
-          <div className="col">
-            <h3>Menu</h3>
-            <ul>
-              <li>Home</li>
-              <li>How we work</li>
-              <li>Services</li>
-              <li>About</li>
-            </ul>
-          </div>
-          <div className="col">
-            <h3>Get Exclusive Offer</h3>
-            <p>Subscribe to our newsletter for the latest updates</p>
-            <form action="">
-              <input type="text" />
-            </form>
-            <button>Submit</button>
           </div>
         </div>
-      </>
-    );
-  };
+        <div className="col">
+          <h3>About us</h3>
+          <ul>
+            <li>Contact Us</li>
+            <li>FAQs</li>
+            <li>Blog</li>
+            <li>Terms of Use</li>
+          </ul>
+        </div>
+        <div className="col">
+          <h3>Menu</h3>
+          <ul>
+            <li>Home</li>
+            <li>How we work</li>
+            <li>Services</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div className="col">
+          <h3>Get Exclusive Offer</h3>
+          <p>Subscribe to our newsletter for the latest updates</p>
+          <form action="">
+            <input type="text" />
+          </form>
+          <button>Submit</button>
+        </div>
+      </div>
+    </>
+  );
+}
 
 export default App;

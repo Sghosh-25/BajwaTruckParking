@@ -828,6 +828,32 @@ gap: 15px;
   border-color: white;
   margin-top: 1.2rem;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  margin:auto;
+  width: 1920px;
+height: 710px;
+top: 45px;
+gap: 0px;
+opacity: 0.08px;
+
+}
 @media only screen and (max-width: 1440px) {
  .flexbox{
 /* flex-wrap: wrap; */
