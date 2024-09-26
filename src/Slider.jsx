@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+// import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,7 +15,7 @@ export default function Slider() {
   return (
     <>
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={30}
         loop={true}
         pagination={{
@@ -25,15 +25,105 @@ export default function Slider() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <div className="slide">
+          <SwiperSlide>
+            <div className="slider">
+              <div className="colleft">
+                <div className="starrating">
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector (1).jpg" alt="" />
+                </div>
+                <h3>
+                  I am extremely satisfied with Bajwa Trucks parking services.
+                  They provide a convenient and secure parking stop for my
+                  truck.
+                </h3>
+                <div className="driverinfo">
+                  {" "}
+                  <img src="../public/Pictures/Ellipse 4.jpg" alt="" />
+                  <div>
+                    <h4>John Doe</h4>
+                    <p>Truck Owner, ABC Company.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="colright">
+                <div className="starrating">
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                </div>
+                <h3>
+                  I highly recommend Bajwa Trucks parking services. They have
+                  made it so easy for me to book a parking spot for my truck.
+                </h3>
+                <div className="driverinfo">
+                  {" "}
+                  <div>
+                    <img src="../public/Pictures/Ellipse 4 (1).jpg" alt="" />
+                  </div>
+                  <div>
+                    <h4>John Doe</h4>
+                    <p>Truck Owner, XYZ Company.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <div className="slider">
+              <div className="colleft">
+                <div className="starrating">
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector (1).jpg" alt="" />
+                </div>
+                <h3>
+                  I am extremely satisfied with Bajwa Trucks parking services.
+                  They provide a convenient and secure parking stop for my
+                  truck.
+                </h3>
+                <div className="driverinfo">
+                  {" "}
+                  <img src="../public/Pictures/Ellipse 4.jpg" alt="" />
+                  <div>
+                    <h4>John Doe</h4>
+                    <p>Truck Owner, XYZ Company.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="colright">
+                <div className="starrating">
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                  <img src="../public/Pictures/Vector.jpg" alt="" />
+                </div>
+                <h3>
+                  I highly recommend Bajwa Trucks parking services. They have
+                  made it so easy for me to book a parking spot for my truck.
+                </h3>
+                <div className="driverinfo">
+                  {" "}
+                  <img src="../public/Pictures/Ellipse 4 (1).jpg" alt="" />
+                  <div>
+                    <h4>John Doe</h4>
+                    <p>Truck Owner, XYZ Company.</p>
+                  </div>
+                </div>
+              </div>
+            </div>{" "}
+          </SwiperSlide>
+        </div>
       </Swiper>
     </>
   );

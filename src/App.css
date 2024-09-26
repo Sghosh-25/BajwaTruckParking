@@ -227,7 +227,7 @@ label {
   font-family: "Raleway", sans-serif;
   /* padding-top: 14rem; */
 }
-.header1{
+.header1 {
   text-align: center;
   padding: 2rem;
   line-height: 4rem;
@@ -235,8 +235,8 @@ label {
   margin-top: 10rem;
 }
 .header1 p,
-.header2 p ,
-.header p{
+.header2 p,
+.header p {
   font-size: 1.5rem;
   text-decoration: underline;
   text-transform: uppercase;
@@ -244,7 +244,8 @@ label {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-.header1 h1,.header h1 {
+.header1 h1,
+.header h1 {
   font-size: 3rem;
 }
 
@@ -255,7 +256,7 @@ label {
 .card {
   width: 384px;
   height: 539px;
-margin-top: 2rem;
+  margin-top: 2rem;
   position: relative;
 }
 .card1,
@@ -342,7 +343,7 @@ margin-top: 2rem;
   padding: 0.6rem;
 }
 
-.ourServices{
+.ourServices {
   width: 100%;
   text-align: center;
   margin: auto;
@@ -351,8 +352,7 @@ margin-top: 2rem;
   display: flex;
   justify-content: center;
   /* padding: 6rem; */
-gap: 15px;
-
+  gap: 15px;
 }
 .flexleft,
 .flexright {
@@ -600,8 +600,7 @@ gap: 15px;
   z-index: 0;
   padding-left: 10rem;
 }
-.bannerright{
-
+.bannerright {
 }
 .bannerleft h1 {
   font-family: Raleway;
@@ -641,10 +640,9 @@ gap: 15px;
 .bannerright {
   z-index: 1;
   position: relative;
-
 }
 
-.aboutus{
+.aboutus {
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -736,8 +734,8 @@ gap: 15px;
   text-align: left;
 }
 .FAQ {
-  width:100%;
-  height:609px;
+  width: 100%;
+  height: 609px;
   gap: 50px;
   opacity: 0px;
 }
@@ -843,33 +841,82 @@ gap: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 758px;
+  height: 342px;
 }
 
 .swiper {
-  margin:auto;
-  /* width: 1920px; */
-height: 710px;
-top: 45px;
-gap: 0px;
-opacity: 0.08px;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  top: 45px;
+  gap: 0px;
+  opacity: 0.08px;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  gap: 20px;
+}
+.starrating{
+  display: flex;
+  gap: 10px;
+}
+.colleft,
+.colright {
+  width: 720px;
+  height: 342px;
+  font-family: Raleway;
+font-size: 22px;
+font-weight: 600;
+line-height: 42px;
+text-align: left;
+padding: 2rem;
+}
+.colleft h3,
+.colright h3{
+  padding: 2rem 0rem;
+}
+.driverinfo{
+  display: flex;
+  gap: 20px;
+}
+.header3 h2{
+  font-family: Raleway;
+font-size: 48px;
+font-weight: 800;
+line-height: 56.35px;
+text-align: left;
 
 }
+.header3 h4{
+  font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.48px;
+text-align: left;
+padding: 2rem 0rem;
+}
 @media only screen and (max-width: 1440px) {
- .flexbox{
-/* flex-wrap: wrap; */
-justify-content: center;
-gap: 15px;
-scale: 0.85;
- }
- .aboutus,.bannerleft{
-scale: 0.80;
- }
- .bannerright{
-  scale: 0.5;
-  gap: 15px;
+  .flexbox {
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 15px;
+    scale: 0.85;
+  }
+  .aboutus,
+  .bannerleft {
+    scale: 0.8;
+  }
+  .bannerright {
+    scale: 0.5;
+    gap: 15px;
     left: 100px;
- }
- .bannerleft{
-  padding-left: 5rem;
- }
+  }
+  .bannerleft {
+    padding-left: 5rem;
+  }
 }
