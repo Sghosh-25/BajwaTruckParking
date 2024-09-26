@@ -12,7 +12,7 @@ function App() {
         <div className="herosection">
           <nav className="navbar">
             <img
-              src="../Pictures/Bajwa Truck Parking-01 1.png"
+              src="/Pictures/Bajwa Truck Parking-01 1.png"
               alt="logo"
               className="logo"
             />
@@ -100,7 +100,7 @@ function App() {
             <div className="card ">
               <div className="float">01</div>
               <div className="card1 ">
-                <img src="../Pictures/file.png" alt="" className="iconimg" />
+                <img src="/Pictures/file.png" alt="" className="iconimg" />
                 <h1>Step 1: Find available parking spots</h1>
                 <p>
                   Browse through our website to find a list of available parking
@@ -114,7 +114,7 @@ function App() {
               <div className="float">02</div>
               <div className="card2 ">
                 <img
-                  src="../Pictures/booking 1.png"
+                  src="/Pictures/booking 1.png"
                   alt=""
                   className="iconimg"
                 />
@@ -131,7 +131,7 @@ function App() {
               <div className="float">03</div>
               <div className="card3">
                 <img
-                  src="../Pictures/parking-sign (1) 1.png"
+                  src="/Pictures/parking-sign (1) 1.png"
                   alt=""
                   className="iconimg"
                 />
@@ -167,12 +167,12 @@ function App() {
                   </div>
                   <button className="booknow">Book Now</button>{" "}
                 </div>
-                <img src="../Pictures/Rectangle 7.jpg" alt="" />
+                <img src="/Pictures/Rectangle 7.jpg" alt="" />
               </div>
               <div className="combine">
                 <div className="colum">
                   <img
-                    src="../Pictures/parking-sign (1) 1.png"
+                    src="/Pictures/parking-sign (1) 1.png"
                     alt=""
                     className="iconimg"
                   />
@@ -182,7 +182,7 @@ function App() {
                 </div>
                 <div className="colum">
                   <img
-                    src="../Pictures/price-tag 1.png"
+                    src="/Pictures/price-tag 1.png"
                     alt=""
                     className="iconimg"
                   />
@@ -195,7 +195,7 @@ function App() {
             <div className="flexright">
               <div className="flexible">
                 <div className="image">
-                  <img src="../Pictures/Rectangle 8.jpg" alt="" />
+                  <img src="/Pictures/Rectangle 8.jpg" alt="" />
                 </div>
                 <div className="text2">
                   <span>Flexible</span>
@@ -215,7 +215,7 @@ function App() {
                   <button className="booknow">Book Now</button>
                 </div>
 
-                <img src="../Pictures/Rectangle 7.png" alt="" />
+                <img src="/Pictures/Rectangle 7.png" alt="" />
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ function App() {
             <button>Book Now</button>
           </div>
           <div className="bannerright">
-            <img src="../Pictures/truck.png" alt="" />
+            <img src="/Pictures/truck.png" alt="" />
           </div>
         </div>
         {/* Testimonials */}
@@ -250,7 +250,7 @@ function App() {
       ;{/* Bajwa Truck CTA 2 */}
       <div className="aboutus">
         <div className="aboutusleft">
-          <img src="../Pictures/Frame 9.jpg" alt="" />
+          <img src="/Pictures/Frame 9.jpg" alt="" />
           <p>
             At Bajwa Truck, we have assembled a dedicated team of professionals
             who are committed to providing excellent service. With their
@@ -272,7 +272,7 @@ function App() {
             </div>
           </div>
           <div>
-            <img src="../Pictures/Frame 10.jpg" alt="" />
+            <img src="/Pictures/Frame 10.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -331,7 +331,7 @@ function App() {
       <div className="footer">
         <div className="col1">
           <img
-            src="../Pictures/Bajwa Truck Parking-01 1.png"
+            src="/Pictures/Bajwa Truck Parking-01 1.png"
             alt="logo"
             className="logo"
           />

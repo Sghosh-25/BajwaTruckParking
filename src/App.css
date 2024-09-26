@@ -48,7 +48,7 @@
 }
 /* banner */
 .herosection {
-  background-image: url(../Pictures/bg.jpg);
+  background-image: url(/Pictures/bg.jpg);
   height: 920px;
   /* width: 100%; */
   /* width: 1920px; */
