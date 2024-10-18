@@ -11,8 +11,8 @@ const Process = () => {
   useGSAP(
     () => {
         // gsap code here...
-        gsap.from('#leftcard', { x:560,duration:1 }); // <-- automatically reverted
-        gsap.from('#rightcard', { x:-560,duration:1 });
+        gsap.from('#leftcard', { x:560,duration:1.5 }); // <-- automatically reverted
+        gsap.from('#rightcard', { x:-560,duration:1.5 });
     },
 );
   return (
